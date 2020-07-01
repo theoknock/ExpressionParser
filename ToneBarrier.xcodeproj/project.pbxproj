@@ -1,0 +1,892 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A8F437424AC25B900134A98 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8F437324AC25B900134A98 /* AppDelegate.m */; };
+		8A8F437724AC25B900134A98 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8F437624AC25B900134A98 /* SceneDelegate.m */; };
+		8A8F437A24AC25B900134A98 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8F437924AC25B900134A98 /* ViewController.m */; };
+		8A8F437D24AC25B900134A98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A8F437B24AC25B900134A98 /* Main.storyboard */; };
+		8A8F437F24AC25BD00134A98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A8F437E24AC25BD00134A98 /* Assets.xcassets */; };
+		8A8F438224AC25BD00134A98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A8F438024AC25BD00134A98 /* LaunchScreen.storyboard */; };
+		8A8F438524AC25BD00134A98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8F438424AC25BD00134A98 /* main.m */; };
+		8A8F438F24AC25BE00134A98 /* ToneBarrierTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8F438E24AC25BE00134A98 /* ToneBarrierTests.m */; };
+		8A8F439A24AC25BE00134A98 /* ToneBarrierUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8F439924AC25BE00134A98 /* ToneBarrierUITests.m */; };
+		8A8F439F24AC25BE00134A98 /* ToneBarrier WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8A8F439E24AC25BE00134A98 /* ToneBarrier WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8A8F43A524AC25BE00134A98 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A8F43A324AC25BE00134A98 /* Interface.storyboard */; };
+		8A8F43A724AC25BF00134A98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A8F43A624AC25BF00134A98 /* Assets.xcassets */; };
+		8A8F43AE24AC25C000134A98 /* ToneBarrier WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8A8F43AD24AC25C000134A98 /* ToneBarrier WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8A8F43B424AC25C000134A98 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8F43B324AC25C000134A98 /* InterfaceController.m */; };
+		8A8F43B724AC25C000134A98 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8F43B624AC25C000134A98 /* ExtensionDelegate.m */; };
+		8A8F43BA24AC25C000134A98 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8F43B924AC25C000134A98 /* NotificationController.m */; };
+		8A8F43BD24AC25C000134A98 /* ComplicationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8F43BC24AC25C000134A98 /* ComplicationController.m */; };
+		8A8F43BF24AC25C300134A98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A8F43BE24AC25C300134A98 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A8F438B24AC25BE00134A98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A8F436724AC25B800134A98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A8F436E24AC25B900134A98;
+			remoteInfo = ToneBarrier;
+		};
+		8A8F439624AC25BE00134A98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A8F436724AC25B800134A98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A8F436E24AC25B900134A98;
+			remoteInfo = ToneBarrier;
+		};
+		8A8F43A024AC25BE00134A98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A8F436724AC25B800134A98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A8F439D24AC25BE00134A98;
+			remoteInfo = "ToneBarrier WatchKit App";
+		};
+		8A8F43AF24AC25C000134A98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A8F436724AC25B800134A98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A8F43AC24AC25C000134A98;
+			remoteInfo = "ToneBarrier WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8A8F43C724AC25C300134A98 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8A8F43AE24AC25C000134A98 /* ToneBarrier WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A8F43CB24AC25C300134A98 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				8A8F439F24AC25BE00134A98 /* ToneBarrier WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8A8F436F24AC25B900134A98 /* ToneBarrier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToneBarrier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A8F437224AC25B900134A98 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8A8F437324AC25B900134A98 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8A8F437524AC25B900134A98 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		8A8F437624AC25B900134A98 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		8A8F437824AC25B900134A98 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8A8F437924AC25B900134A98 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8A8F437C24AC25B900134A98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A8F437E24AC25BD00134A98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A8F438124AC25BD00134A98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A8F438324AC25BD00134A98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A8F438424AC25BD00134A98 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A8F438A24AC25BE00134A98 /* ToneBarrierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToneBarrierTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A8F438E24AC25BE00134A98 /* ToneBarrierTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToneBarrierTests.m; sourceTree = "<group>"; };
+		8A8F439024AC25BE00134A98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A8F439524AC25BE00134A98 /* ToneBarrierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToneBarrierUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A8F439924AC25BE00134A98 /* ToneBarrierUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToneBarrierUITests.m; sourceTree = "<group>"; };
+		8A8F439B24AC25BE00134A98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A8F439E24AC25BE00134A98 /* ToneBarrier WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ToneBarrier WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A8F43A424AC25BE00134A98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		8A8F43A624AC25BF00134A98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A8F43A824AC25BF00134A98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A8F43AD24AC25C000134A98 /* ToneBarrier WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ToneBarrier WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A8F43B224AC25C000134A98 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		8A8F43B324AC25C000134A98 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		8A8F43B524AC25C000134A98 /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		8A8F43B624AC25C000134A98 /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		8A8F43B824AC25C000134A98 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		8A8F43B924AC25C000134A98 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		8A8F43BB24AC25C000134A98 /* ComplicationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComplicationController.h; sourceTree = "<group>"; };
+		8A8F43BC24AC25C000134A98 /* ComplicationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComplicationController.m; sourceTree = "<group>"; };
+		8A8F43BE24AC25C300134A98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A8F43C024AC25C300134A98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A8F43C124AC25C300134A98 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A8F436C24AC25B900134A98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A8F438724AC25BE00134A98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A8F439224AC25BE00134A98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A8F43AA24AC25C000134A98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A8F436624AC25B800134A98 = {
+			isa = PBXGroup;
+			children = (
+				8A8F437124AC25B900134A98 /* ToneBarrier */,
+				8A8F438D24AC25BE00134A98 /* ToneBarrierTests */,
+				8A8F439824AC25BE00134A98 /* ToneBarrierUITests */,
+				8A8F43A224AC25BE00134A98 /* ToneBarrier WatchKit App */,
+				8A8F43B124AC25C000134A98 /* ToneBarrier WatchKit Extension */,
+				8A8F437024AC25B900134A98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A8F437024AC25B900134A98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A8F436F24AC25B900134A98 /* ToneBarrier.app */,
+				8A8F438A24AC25BE00134A98 /* ToneBarrierTests.xctest */,
+				8A8F439524AC25BE00134A98 /* ToneBarrierUITests.xctest */,
+				8A8F439E24AC25BE00134A98 /* ToneBarrier WatchKit App.app */,
+				8A8F43AD24AC25C000134A98 /* ToneBarrier WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A8F437124AC25B900134A98 /* ToneBarrier */ = {
+			isa = PBXGroup;
+			children = (
+				8A8F437224AC25B900134A98 /* AppDelegate.h */,
+				8A8F437324AC25B900134A98 /* AppDelegate.m */,
+				8A8F437524AC25B900134A98 /* SceneDelegate.h */,
+				8A8F437624AC25B900134A98 /* SceneDelegate.m */,
+				8A8F437824AC25B900134A98 /* ViewController.h */,
+				8A8F437924AC25B900134A98 /* ViewController.m */,
+				8A8F437B24AC25B900134A98 /* Main.storyboard */,
+				8A8F437E24AC25BD00134A98 /* Assets.xcassets */,
+				8A8F438024AC25BD00134A98 /* LaunchScreen.storyboard */,
+				8A8F438324AC25BD00134A98 /* Info.plist */,
+				8A8F438424AC25BD00134A98 /* main.m */,
+			);
+			path = ToneBarrier;
+			sourceTree = "<group>";
+		};
+		8A8F438D24AC25BE00134A98 /* ToneBarrierTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A8F438E24AC25BE00134A98 /* ToneBarrierTests.m */,
+				8A8F439024AC25BE00134A98 /* Info.plist */,
+			);
+			path = ToneBarrierTests;
+			sourceTree = "<group>";
+		};
+		8A8F439824AC25BE00134A98 /* ToneBarrierUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8A8F439924AC25BE00134A98 /* ToneBarrierUITests.m */,
+				8A8F439B24AC25BE00134A98 /* Info.plist */,
+			);
+			path = ToneBarrierUITests;
+			sourceTree = "<group>";
+		};
+		8A8F43A224AC25BE00134A98 /* ToneBarrier WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				8A8F43A324AC25BE00134A98 /* Interface.storyboard */,
+				8A8F43A624AC25BF00134A98 /* Assets.xcassets */,
+				8A8F43A824AC25BF00134A98 /* Info.plist */,
+			);
+			path = "ToneBarrier WatchKit App";
+			sourceTree = "<group>";
+		};
+		8A8F43B124AC25C000134A98 /* ToneBarrier WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8A8F43B224AC25C000134A98 /* InterfaceController.h */,
+				8A8F43B324AC25C000134A98 /* InterfaceController.m */,
+				8A8F43B524AC25C000134A98 /* ExtensionDelegate.h */,
+				8A8F43B624AC25C000134A98 /* ExtensionDelegate.m */,
+				8A8F43B824AC25C000134A98 /* NotificationController.h */,
+				8A8F43B924AC25C000134A98 /* NotificationController.m */,
+				8A8F43BB24AC25C000134A98 /* ComplicationController.h */,
+				8A8F43BC24AC25C000134A98 /* ComplicationController.m */,
+				8A8F43BE24AC25C300134A98 /* Assets.xcassets */,
+				8A8F43C024AC25C300134A98 /* Info.plist */,
+				8A8F43C124AC25C300134A98 /* PushNotificationPayload.apns */,
+			);
+			path = "ToneBarrier WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A8F436E24AC25B900134A98 /* ToneBarrier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A8F43CC24AC25C300134A98 /* Build configuration list for PBXNativeTarget "ToneBarrier" */;
+			buildPhases = (
+				8A8F436B24AC25B900134A98 /* Sources */,
+				8A8F436C24AC25B900134A98 /* Frameworks */,
+				8A8F436D24AC25B900134A98 /* Resources */,
+				8A8F43CB24AC25C300134A98 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A8F43A124AC25BE00134A98 /* PBXTargetDependency */,
+			);
+			name = ToneBarrier;
+			productName = ToneBarrier;
+			productReference = 8A8F436F24AC25B900134A98 /* ToneBarrier.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A8F438924AC25BE00134A98 /* ToneBarrierTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A8F43CF24AC25C300134A98 /* Build configuration list for PBXNativeTarget "ToneBarrierTests" */;
+			buildPhases = (
+				8A8F438624AC25BE00134A98 /* Sources */,
+				8A8F438724AC25BE00134A98 /* Frameworks */,
+				8A8F438824AC25BE00134A98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A8F438C24AC25BE00134A98 /* PBXTargetDependency */,
+			);
+			name = ToneBarrierTests;
+			productName = ToneBarrierTests;
+			productReference = 8A8F438A24AC25BE00134A98 /* ToneBarrierTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8A8F439424AC25BE00134A98 /* ToneBarrierUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A8F43D224AC25C300134A98 /* Build configuration list for PBXNativeTarget "ToneBarrierUITests" */;
+			buildPhases = (
+				8A8F439124AC25BE00134A98 /* Sources */,
+				8A8F439224AC25BE00134A98 /* Frameworks */,
+				8A8F439324AC25BE00134A98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A8F439724AC25BE00134A98 /* PBXTargetDependency */,
+			);
+			name = ToneBarrierUITests;
+			productName = ToneBarrierUITests;
+			productReference = 8A8F439524AC25BE00134A98 /* ToneBarrierUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		8A8F439D24AC25BE00134A98 /* ToneBarrier WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A8F43C824AC25C300134A98 /* Build configuration list for PBXNativeTarget "ToneBarrier WatchKit App" */;
+			buildPhases = (
+				8A8F439C24AC25BE00134A98 /* Resources */,
+				8A8F43C724AC25C300134A98 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A8F43B024AC25C000134A98 /* PBXTargetDependency */,
+			);
+			name = "ToneBarrier WatchKit App";
+			productName = "ToneBarrier WatchKit App";
+			productReference = 8A8F439E24AC25BE00134A98 /* ToneBarrier WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		8A8F43AC24AC25C000134A98 /* ToneBarrier WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A8F43C424AC25C300134A98 /* Build configuration list for PBXNativeTarget "ToneBarrier WatchKit Extension" */;
+			buildPhases = (
+				8A8F43A924AC25C000134A98 /* Sources */,
+				8A8F43AA24AC25C000134A98 /* Frameworks */,
+				8A8F43AB24AC25C000134A98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ToneBarrier WatchKit Extension";
+			productName = "ToneBarrier WatchKit Extension";
+			productReference = 8A8F43AD24AC25C000134A98 /* ToneBarrier WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A8F436724AC25B800134A98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					8A8F436E24AC25B900134A98 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					8A8F438924AC25BE00134A98 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 8A8F436E24AC25B900134A98;
+					};
+					8A8F439424AC25BE00134A98 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 8A8F436E24AC25B900134A98;
+					};
+					8A8F439D24AC25BE00134A98 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					8A8F43AC24AC25C000134A98 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 8A8F436A24AC25B800134A98 /* Build configuration list for PBXProject "ToneBarrier" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A8F436624AC25B800134A98;
+			productRefGroup = 8A8F437024AC25B900134A98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A8F436E24AC25B900134A98 /* ToneBarrier */,
+				8A8F438924AC25BE00134A98 /* ToneBarrierTests */,
+				8A8F439424AC25BE00134A98 /* ToneBarrierUITests */,
+				8A8F439D24AC25BE00134A98 /* ToneBarrier WatchKit App */,
+				8A8F43AC24AC25C000134A98 /* ToneBarrier WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A8F436D24AC25B900134A98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A8F438224AC25BD00134A98 /* LaunchScreen.storyboard in Resources */,
+				8A8F437F24AC25BD00134A98 /* Assets.xcassets in Resources */,
+				8A8F437D24AC25B900134A98 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A8F438824AC25BE00134A98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A8F439324AC25BE00134A98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A8F439C24AC25BE00134A98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A8F43A724AC25BF00134A98 /* Assets.xcassets in Resources */,
+				8A8F43A524AC25BE00134A98 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A8F43AB24AC25C000134A98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A8F43BF24AC25C300134A98 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A8F436B24AC25B900134A98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A8F437A24AC25B900134A98 /* ViewController.m in Sources */,
+				8A8F437424AC25B900134A98 /* AppDelegate.m in Sources */,
+				8A8F438524AC25BD00134A98 /* main.m in Sources */,
+				8A8F437724AC25B900134A98 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A8F438624AC25BE00134A98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A8F438F24AC25BE00134A98 /* ToneBarrierTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A8F439124AC25BE00134A98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A8F439A24AC25BE00134A98 /* ToneBarrierUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A8F43A924AC25C000134A98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A8F43B724AC25C000134A98 /* ExtensionDelegate.m in Sources */,
+				8A8F43BD24AC25C000134A98 /* ComplicationController.m in Sources */,
+				8A8F43B424AC25C000134A98 /* InterfaceController.m in Sources */,
+				8A8F43BA24AC25C000134A98 /* NotificationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A8F438C24AC25BE00134A98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A8F436E24AC25B900134A98 /* ToneBarrier */;
+			targetProxy = 8A8F438B24AC25BE00134A98 /* PBXContainerItemProxy */;
+		};
+		8A8F439724AC25BE00134A98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A8F436E24AC25B900134A98 /* ToneBarrier */;
+			targetProxy = 8A8F439624AC25BE00134A98 /* PBXContainerItemProxy */;
+		};
+		8A8F43A124AC25BE00134A98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A8F439D24AC25BE00134A98 /* ToneBarrier WatchKit App */;
+			targetProxy = 8A8F43A024AC25BE00134A98 /* PBXContainerItemProxy */;
+		};
+		8A8F43B024AC25C000134A98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A8F43AC24AC25C000134A98 /* ToneBarrier WatchKit Extension */;
+			targetProxy = 8A8F43AF24AC25C000134A98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8A8F437B24AC25B900134A98 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A8F437C24AC25B900134A98 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8A8F438024AC25BD00134A98 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A8F438124AC25BD00134A98 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8A8F43A324AC25BE00134A98 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A8F43A424AC25BE00134A98 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A8F43C224AC25C300134A98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		8A8F43C324AC25C300134A98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+			};
+			name = Release;
+		};
+		8A8F43C524AC25C300134A98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N9987K9442;
+				INFOPLIST_FILE = "ToneBarrier WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blogspot.demonicactivity.bush.alan.james.JABPlanetaryHourWatch.ToneBarrier.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		8A8F43C624AC25C300134A98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N9987K9442;
+				INFOPLIST_FILE = "ToneBarrier WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blogspot.demonicactivity.bush.alan.james.JABPlanetaryHourWatch.ToneBarrier.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		8A8F43C924AC25C300134A98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N9987K9442;
+				IBSC_MODULE = ToneBarrier_WatchKit_Extension;
+				INFOPLIST_FILE = "ToneBarrier WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blogspot.demonicactivity.bush.alan.james.JABPlanetaryHourWatch.ToneBarrier.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		8A8F43CA24AC25C300134A98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N9987K9442;
+				IBSC_MODULE = ToneBarrier_WatchKit_Extension;
+				INFOPLIST_FILE = "ToneBarrier WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blogspot.demonicactivity.bush.alan.james.JABPlanetaryHourWatch.ToneBarrier.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		8A8F43CD24AC25C300134A98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N9987K9442;
+				INFOPLIST_FILE = ToneBarrier/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blogspot.demonicactivity.bush.alan.james.JABPlanetaryHourWatch.ToneBarrier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A8F43CE24AC25C300134A98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N9987K9442;
+				INFOPLIST_FILE = ToneBarrier/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blogspot.demonicactivity.bush.alan.james.JABPlanetaryHourWatch.ToneBarrier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A8F43D024AC25C300134A98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N9987K9442;
+				INFOPLIST_FILE = ToneBarrierTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blogspot.demonicactivity.bush.alan.james.JABPlanetaryHourWatch.ToneBarrierTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToneBarrier.app/ToneBarrier";
+			};
+			name = Debug;
+		};
+		8A8F43D124AC25C300134A98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N9987K9442;
+				INFOPLIST_FILE = ToneBarrierTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blogspot.demonicactivity.bush.alan.james.JABPlanetaryHourWatch.ToneBarrierTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToneBarrier.app/ToneBarrier";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A8F43D324AC25C300134A98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N9987K9442;
+				INFOPLIST_FILE = ToneBarrierUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blogspot.demonicactivity.bush.alan.james.JABPlanetaryHourWatch.ToneBarrierUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ToneBarrier;
+			};
+			name = Debug;
+		};
+		8A8F43D424AC25C300134A98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N9987K9442;
+				INFOPLIST_FILE = ToneBarrierUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blogspot.demonicactivity.bush.alan.james.JABPlanetaryHourWatch.ToneBarrierUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ToneBarrier;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A8F436A24AC25B800134A98 /* Build configuration list for PBXProject "ToneBarrier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A8F43C224AC25C300134A98 /* Debug */,
+				8A8F43C324AC25C300134A98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A8F43C424AC25C300134A98 /* Build configuration list for PBXNativeTarget "ToneBarrier WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A8F43C524AC25C300134A98 /* Debug */,
+				8A8F43C624AC25C300134A98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A8F43C824AC25C300134A98 /* Build configuration list for PBXNativeTarget "ToneBarrier WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A8F43C924AC25C300134A98 /* Debug */,
+				8A8F43CA24AC25C300134A98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A8F43CC24AC25C300134A98 /* Build configuration list for PBXNativeTarget "ToneBarrier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A8F43CD24AC25C300134A98 /* Debug */,
+				8A8F43CE24AC25C300134A98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A8F43CF24AC25C300134A98 /* Build configuration list for PBXNativeTarget "ToneBarrierTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A8F43D024AC25C300134A98 /* Debug */,
+				8A8F43D124AC25C300134A98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A8F43D224AC25C300134A98 /* Build configuration list for PBXNativeTarget "ToneBarrierUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A8F43D324AC25C300134A98 /* Debug */,
+				8A8F43D424AC25C300134A98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A8F436724AC25B800134A98 /* Project object */;
+}
