@@ -13,6 +13,6 @@
 #include <stdlib.h>
 
 unsigned int count_args(char * expression);
-char ** parse_args(char * expression, unsigned int argument_count);
+char ** parse_args(char * expression, unsigned int args_count);
 
 #endif /* split_h */

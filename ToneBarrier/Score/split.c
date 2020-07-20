@@ -38,9 +38,9 @@ unsigned int count_args(char * expression)
     return delimiters_count;
 }
 
-char ** parse_args(char * expression, unsigned int argument_count)
+char ** parse_args(char * expression, unsigned int args_count)
 {
-    unsigned int args_count = count_args(expression);
+//    unsigned int args_count = count_args(expression);
     char * expression_vars;
     char * arguments[args_count];
 
